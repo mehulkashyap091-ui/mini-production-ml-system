@@ -1,0 +1,31 @@
+{
+  "total_requests": 300,
+  "error_count": 0,
+  "error_rate_pct": 0.0,
+  "total_elapsed_sec": 3.11,
+  "throughput_req_per_sec": 96.48,
+  "overall": {
+    "count": 300,
+    "mean_ms": 10.363,
+    "p50_ms": 11.119,
+    "p95_ms": 16.271,
+    "p99_ms": 18.793,
+    "max_ms": 37.797
+  },
+  "warm_two_stage": {
+    "count": 250,
+    "mean_ms": 12.022,
+    "p50_ms": 11.556,
+    "p95_ms": 16.916,
+    "p99_ms": 19.531,
+    "max_ms": 37.797
+  },
+  "cold_start_fallback": {
+    "count": 50,
+    "mean_ms": 2.072,
+    "p50_ms": 1.855,
+    "p95_ms": 3.016,
+    "p99_ms": 4.445,
+    "max_ms": 5.057
+  }
+}

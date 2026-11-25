@@ -1,0 +1,13 @@
+fastapi==0.141.1
+uvicorn==0.54.0
+pydantic==2.14.2
+httpx==0.28.1
+pytest==8.4.2
+lightgbm==4.6.0
+scikit-learn==1.6.1
+pandas==2.2.3
+numpy==2.4.6
+scipy==1.16.3
+joblib==1.6.0
+openpyxl==3.1.5
+requests==2.32.4

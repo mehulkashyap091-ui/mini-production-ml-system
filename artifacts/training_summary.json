@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "model_version": "1.0.0",
+    "train_pairs": 59350,
+    "train_positive_rate": 0.1444,
+    "scale_pos_weight": 5.92,
+    "val_pairwise_pr_auc": 0.2947,
+    "n_candidates_stage1": 50
+  },
+  "feature_importances": {
+    "user_total_qty": 741,
+    "user_recency_days": 681,
+    "user_avg_order_spend": 659,
+    "retrieval_score": 638,
+    "price_ratio_to_user_avg": 632,
+    "item_avg_price": 618,
+    "item_total_orders": 376,
+    "item_unique_buyers": 361,
+    "user_total_orders": 360,
+    "user_item_prev_qty": 329,
+    "user_item_recency_days": 316,
+    "item_recency_days": 267,
+    "user_bought_before": 22
+  }
+}

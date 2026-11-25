@@ -1,0 +1,42 @@
+{
+  "reference_window": "2010-12 to 2011-09 (Train)",
+  "current_window": "2011-11 to 2011-12 (Test)",
+  "feature_drift": {
+    "UnitPrice": {
+      "train_median": 1.95,
+      "test_median": 1.69,
+      "psi": 0.0244,
+      "psi_status": "NO_DRIFT",
+      "ks_statistic": 0.0415,
+      "ks_pvalue": 3.83e-94
+    },
+    "Quantity": {
+      "train_median": 6.0,
+      "test_median": 4.0,
+      "psi": 0.0359,
+      "psi_status": "NO_DRIFT",
+      "ks_statistic": 0.0794,
+      "ks_pvalue": 0.0
+    },
+    "TotalAmount": {
+      "train_median": 12.75,
+      "test_median": 9.9,
+      "psi": 0.0701,
+      "psi_status": "NO_DRIFT",
+      "ks_statistic": 0.1142,
+      "ks_pvalue": 0.0
+    },
+    "BasketSize_UniqueItems": {
+      "train_median": 15.0,
+      "test_median": 15.0,
+      "psi": 0.0199,
+      "psi_status": "NO_DRIFT",
+      "ks_statistic": 0.042,
+      "ks_pvalue": 0.000127
+    }
+  },
+  "entity_drift": {
+    "unseen_catalog_items_pct": 5.45,
+    "cold_start_users_pct": 24.53
+  }
+}

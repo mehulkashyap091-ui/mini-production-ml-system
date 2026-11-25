@@ -1,0 +1,68 @@
+{
+  "all_users": {
+    "n_users": 1908,
+    "baseline": {
+      "Precision@5": 0.0745,
+      "Recall@5": 0.0138,
+      "NDCG@5": 0.0814,
+      "HitRate@5": 0.2872,
+      "Precision@10": 0.0747,
+      "Recall@10": 0.03,
+      "NDCG@10": 0.082,
+      "HitRate@10": 0.4591
+    },
+    "two_stage": {
+      "Precision@5": 0.2452,
+      "Recall@5": 0.0738,
+      "NDCG@5": 0.2648,
+      "HitRate@5": 0.5613,
+      "Precision@10": 0.2147,
+      "Recall@10": 0.1156,
+      "NDCG@10": 0.2498,
+      "HitRate@10": 0.6782
+    },
+    "relative_lift_pct": {
+      "Precision@5": 228.97,
+      "Recall@5": 433.02,
+      "NDCG@5": 225.41,
+      "HitRate@5": 95.44,
+      "Precision@10": 187.44,
+      "Recall@10": 285.39,
+      "NDCG@10": 204.45,
+      "HitRate@10": 47.72
+    }
+  },
+  "warm_users": {
+    "n_users": 1440,
+    "baseline": {
+      "Precision@5": 0.08,
+      "Recall@5": 0.0147,
+      "NDCG@5": 0.0867,
+      "HitRate@5": 0.3076,
+      "Precision@10": 0.0801,
+      "Recall@10": 0.0307,
+      "NDCG@10": 0.0873,
+      "HitRate@10": 0.4806
+    },
+    "two_stage": {
+      "Precision@5": 0.3061,
+      "Recall@5": 0.0941,
+      "NDCG@5": 0.3298,
+      "HitRate@5": 0.6708,
+      "Precision@10": 0.2656,
+      "Recall@10": 0.1441,
+      "NDCG@10": 0.3095,
+      "HitRate@10": 0.7708
+    },
+    "relative_lift_pct": {
+      "Precision@5": 282.64,
+      "Recall@5": 540.37,
+      "NDCG@5": 280.16,
+      "HitRate@5": 118.06,
+      "Precision@10": 231.66,
+      "Recall@10": 369.81,
+      "NDCG@10": 254.61,
+      "HitRate@10": 60.4
+    }
+  }
+}
